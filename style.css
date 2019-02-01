@@ -1,4 +1,4 @@
-.center {
+.logo {
 	padding: 175px 0 0 0;
   	display: block;
   	margin-left: auto;
@@ -31,7 +31,7 @@
 	margin-top: -37px;
 
 	font: 16px arial,sans-serif;
-	
+	width: 480px;
 }
 
 .btn-group button {
