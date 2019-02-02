@@ -16,15 +16,18 @@
 	<div class="logo">
 		<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 	</div>
-	<div class="bar">
-		<form>
-			<input class="search" type="text">
-		</form>
-	</div>
-	<div class="btn-group">
-  		<button>Google Search</button>
-  		<button>I'm Feeling Lucky</button>				
-  	</div>
+
+	<form action="/action_page.php" method="get">
+		<div class="bar">
+			<input type="text" name="Google Search" value="">
+  		</div>
+
+		<div class="center">
+			<input value="Google Search" aria-label="Google Search" name="btnK" type="submit">
+  		
+  			<input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit">
+  		</div>
+  	</form>
 </body>
 
 <footer>
