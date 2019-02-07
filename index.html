@@ -5,22 +5,26 @@
 	<div id="header">
 		 <ul>
 		 	<div id="top-left">
-		 		<li><a class="graytext"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiL0uTmmZngAhU_IDQIHegfB9MQkNQCCAM&url=%2Fintl%2Fen%2Fabout%2F%3Ffg%3D1%26utm_source%3Dgoogle-US%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&usg=AOvVaw1QHjdlDLdIC6vxB44RfcSD">About</a></li>
-  				<li><a class="graytext"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiL0uTmmZngAhU_IDQIHegfB9MQpMwCCAQ&url=https%3A%2F%2Fstore.google.com%2F%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_oo%26utm_campaign%3DGS100042&usg=AOvVaw0klweobGSi20iSKV1DeFH9">Store</a></li>
+		 		<li><a class="graytext" href="https://about.google/intl/en/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+  				<li><a class="graytext" href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
 		 	</div>
   			
-  			<div class="top-right">
+  			<div class="top-right" style="top:0;left:0;right:0;width:100%" activated="1">
   				<div class="GI">
-  					<li><a class="graytext"href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
-  					<li><a class="graytext"href="https://www.google.com/imghp?hl=en&tab=wi">Images</a></li>
+  					<li><a class="graytext gmail"href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+  					<li><a class="graytext images"href="https://www.google.com/imghp?hl=en&tab=wi">Images</a></li>
   				</div>
 
   				<div class="icon">
-  					<li>
-  						<a class="apps" href="https://www.google.com/intl/en/about/products?tab=wh" role="button" tabindex="0"></a>
+  					<li class="products">
+  						<div class="apps">
+  							<a class="aboutp" href="https://www.google.com/intl/en/about/products?tab=wh" role="button" tabindex="0"></a>
+  						</div>
   					</li>
-  					<li id="signin">
-  						<a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a>
+  					<li class="box">
+  						<div class="blue">
+  							<a id="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a>
+  						</div>
   					</li>
   				</div>
   			</div>
@@ -33,7 +37,7 @@
 		<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 	</div>
 
-	<form action="/action_page.php" method="get">
+	<form action="/search" method="GET" name="f" onsubmit="return q.value!=' '" role="search">
 		<div id="bar">
 			<input type="text" name="Google Search" value="">
   		</div>
@@ -49,10 +53,10 @@
 <footer>
 	<div>
 		 <ul style="background-color: #f2f2f2">
-  			<li><a class="graytext"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj0yOnz3JvgAhV1JzQIHUyUBeoQkdQCCBE&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_us%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw3XLzhicA5ZZW0afDbW0l2T">Advertising</a></li>
-  			<li><a class="graytext"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj0yOnz3JvgAhV1JzQIHUyUBeoQktQCCBI&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Business</a></li>
-  			<li style="float: right"><a class="graytext"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj0yOnz3JvgAhV1JzQIHUyUBeoQ8awCCA0&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_us%2Fpolicies%2Fprivacy%2F%3Ffg%3D1&usg=AOvVaw1Eu2HXBpFnmXCkPvEJJC_2">Privacy</a></li>
-  			<li style="float: right"><a class="graytext"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj0yOnz3JvgAhV1JzQIHUyUBeoQ8qwCCA4&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_us%2Fpolicies%2Fterms%2F%3Ffg%3D1&usg=AOvVaw3QPB5iVtcNuHWGnU6edD1k">Terms</a></li>
+  			<li><a class="graytext"href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000010-0000000000&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+  			<li><a class="graytext"href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+  			<li style="float: right"><a class="graytext"href="https://policies.google.com/privacy?hl=en&gl=us">Privacy</a></li>
+  			<li style="float: right"><a class="graytext"href="https://policies.google.com/terms?hl=en&gl=us">Terms</a></li>
   			<li style="float: right"><a class="graytext"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj0yOnz3JvgAhV1JzQIHUyUBeoQzq0CCA8&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Den&usg=AOvVaw0XvhSqpc_GFt9aG_mRLp1F">Settings</a></li>
 		</ul> 
 	</div>
