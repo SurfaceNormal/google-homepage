@@ -1,7 +1,33 @@
+ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+}
+
+li {
+  	float: left;
+  	padding-left: 15px;
+}
+
+li a {
+	display: inline-block; 
+  	/*padding: 14px 16px;*/
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	/*padding-left: 18px;*/
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
 .graytext {
 	color: #222;
 }
 
+/* HEADER */
 #header {
 	position: absolute;
 	top: 11px;
@@ -10,7 +36,7 @@
 }
 
 #top-left {
-	position: relative;
+	position: absolute;
 	margin: 7px 0 0 10px;
 }
 
@@ -162,15 +188,34 @@
 	border-radius: 2px;
 }
 
+/* BODY */
+.content {
+	padding-bottom: 35px;
+}
+
 #logo {
-	padding: 150px 0 0 0;
   	display: block;
+  	/*margin: 0 auto;
+  	min-width: 980px;*/
+
+  	height: 233px;
+  	margin-top: 89px;
+  	/*padding: 150px 0 0 0;*/
   	margin-left: auto;
   	margin-right: auto;
 	width: 20%;
 }
 
+#goo {
+  	padding-top: 109px;
+}
+
 #bar { 
+	width: 584px;
+	position: relative;
+	padding-left: 12px
+	padding-top: 6px;
+
 	background: #fff;
 	display: flex;
 	border-radius: 2px;
@@ -179,10 +224,9 @@
 	z-index: 3;
 	height: 44px;
 	margin: 0 auto;
-	width: 484px;
 }
 
-.center {
+.buttons {
 	width: 487px;
 	height: 58px;
 
@@ -199,7 +243,7 @@ input[type="text"] {
 	background-color: transparent;
 	border: none;
 	margin: 0;
-	padding-top: 30px;
+	padding-top: 40px;
 	padding-left: 10px;
 	color: rgba(0,0,0,.87);
 	word-wrap: break-word;
@@ -209,7 +253,9 @@ input[type="text"] {
 	margin-top: -37px;
 
 	font: 16px arial,sans-serif;
-	width: 480px;
+	line-height: 34px;
+	height: 34px !important;
+	width: 564px;
 }
 
 input[type="submit"] {
@@ -233,27 +279,4 @@ input[type="submit"] {
 	text-align: center;
 }
 
-ul {
-  	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-}
-
-li {
-  	float: left;
-  	padding-left: 15px;
-}
-
-li a {
-	display: inline-block; 
-  	/*padding: 14px 16px;*/
-	text-decoration: none;
-	font-family: arial, sans-serif;
-	font-size: 13px;
-	/*padding-left: 18px;*/
-}
-
-li a:hover {
-  text-decoration: underline;
-}
+/* FOOTER */ 

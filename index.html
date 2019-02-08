@@ -9,23 +9,25 @@
   				<li><a class="graytext" href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
 		 	</div>
   			
-  			<div class="top-right" style="top:0;left:0;right:0;width:100%" activated="1">
-  				<div class="GI">
-  					<li><a class="graytext gmail"href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
-  					<li><a class="graytext images"href="https://www.google.com/imghp?hl=en&tab=wi">Images</a></li>
-  				</div>
+  			<div style="top:0;left:0;right:0;width:100%" >
+  				<div class="top-right" activated="1">
+  					<div class="GI">
+  						<li><a class="graytext gmail"href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+  						<li><a class="graytext images"href="https://www.google.com/imghp?hl=en&tab=wi">Images</a></li>
+  					</div>
 
-  				<div class="icon">
-  					<li class="products">
-  						<div class="apps">
-  							<a class="aboutp" href="https://www.google.com/intl/en/about/products?tab=wh" role="button" tabindex="0"></a>
-  						</div>
-  					</li>
-  					<li class="box">
-  						<div class="blue">
-  							<a id="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a>
-  						</div>
-  					</li>
+  					<div class="icon">
+  						<li class="products">
+  							<div class="apps">
+  								<a class="aboutp" href="https://www.google.com/intl/en/about/products?tab=wh" role="button" tabindex="0"></a>
+  							</div>
+  						</li>
+  						<li class="box">
+	  						<div class="blue">
+	  							<a id="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a>
+	  						</div>
+  						</li>
+  					</div>
   				</div>
   			</div>
 		</ul> 
@@ -33,21 +35,23 @@
 </head>
 
 <body>
-	<div id="logo">
-		<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+	<div class="content">
+		<div id="logo">
+			<img id="goo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+		</div>
+
+		<form action="/search" method="GET" name="f" onsubmit="return q.value!=' '" role="search">
+			<div id="bar">
+				<input type="text" name="Google Search" value="">
+	  		</div>
+
+			<div class="buttons">
+				<input value="Google Search" aria-label="Google Search" name="btnK" type="submit">
+	  		
+	  			<input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit">
+	  		</div>
+	  	</form>
 	</div>
-
-	<form action="/search" method="GET" name="f" onsubmit="return q.value!=' '" role="search">
-		<div id="bar">
-			<input type="text" name="Google Search" value="">
-  		</div>
-
-		<div class="center">
-			<input value="Google Search" aria-label="Google Search" name="btnK" type="submit">
-  		
-  			<input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit">
-  		</div>
-  	</form>
 </body>
 
 <footer>
